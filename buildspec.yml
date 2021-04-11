@@ -16,6 +16,7 @@ phases:
       - yarn
   build:
     commands:
+      - yarn add react-scripts
       - echo Testing...
       - yarn test
       - echo Building...
